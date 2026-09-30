@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.farklelevel1.HelloController">
+   <children>
+      <Button fx:id="btnRoll" layoutX="250.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnRoll" prefHeight="100.0" prefWidth="100.0" text="Roll" />
+      <VBox alignment="CENTER" layoutX="30.0" layoutY="56.0" prefHeight="288.0" prefWidth="100.0">
+         <children>
+            <ToggleButton fx:id="btnDice1" mnemonicParsing="false" onAction="#btnDice1" text="Dice:" />
+            <ToggleButton fx:id="btnDice2" mnemonicParsing="false" onAction="#btnDice2" text="Dice:" />
+            <ToggleButton fx:id="btnDice3" mnemonicParsing="false" onAction="#btnDice3" text="Dice:" />
+            <ToggleButton fx:id="btnDice4" mnemonicParsing="false" onAction="#btnDice4" text="Dice:" />
+            <ToggleButton fx:id="btnDice5" mnemonicParsing="false" onAction="#btnDice5" text="Dice:" />
+            <ToggleButton fx:id="btnDice6" mnemonicParsing="false" onAction="#btnDice6" text="Dice:" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
